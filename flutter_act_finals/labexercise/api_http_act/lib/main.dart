@@ -70,8 +70,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 Text("ID: ${photos[index]["id"]}"),
                 Image.network(
                   photos[index]["url"],
-                  height: 80.0, // Adjust the height as needed
-                  width: 80.0,  // Adjust the width as needed
+                  height: 80.0, 
+                  width: 80.0, 
                 ),
               ],
             ),
